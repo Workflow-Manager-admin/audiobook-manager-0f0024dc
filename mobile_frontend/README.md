@@ -1,10 +1,30 @@
 # mobile_frontend
 
-A new Flutter project.
+A modern minimalist Flutter app for audiobook store, library, and player (with purchase via Stripe).
+
+## Features
+
+- Bottom navigation: Store, Library, Player
+- Purchase audiobooks (Stripe integration, via backend)
+- Playback with resume & skip 15s, progress tracking
+- Modern light UI with custom colors (`primary #1E88E5`, `secondary #43A047`, `accent #FFC107`)
+- Persistent local storage (library + progress)
+- Environment variable support for sensitive data (.env file; see `.env.example`)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Copy `.env.example` to `.env` in this directory and fill with your Stripe keys (demo logic is mocked).
+2. Install dependencies:
+
+    ```bash
+    flutter pub get
+    ```
+
+3. Run
+
+    ```bash
+    flutter run
+    ```
 
 A few resources to get you started if this is your first Flutter project:
 

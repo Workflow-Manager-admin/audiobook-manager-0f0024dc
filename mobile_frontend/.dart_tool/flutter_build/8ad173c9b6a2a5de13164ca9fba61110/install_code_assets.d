@@ -1,0 +1,1 @@
+ /home/kavia/workspace/code-generation/audiobook-manager-0f0024dc/mobile_frontend/.dart_tool/flutter_build/8ad173c9b6a2a5de13164ca9fba61110/native_assets.json: 
